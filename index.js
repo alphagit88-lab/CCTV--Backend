@@ -8,7 +8,6 @@ const app = express();
 const authRoutes = require('./routes/authRoutes');
 const cameraRoutes = require('./routes/cameraRoutes');
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 
